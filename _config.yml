@@ -1,29 +1,40 @@
-name: SMPL
 favicon: null
-layout_spectrum: 0.91817
-typography_spectrum: 0.5078160909470171
-title: SonicMuteProductionsLimited
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: SMPL
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.8259515953250229
+  brandStrength: 0.1027704961597919
+  rhythmicContrast: 0.7647508170921355
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.125
   lightness: 0.04575641732662916
-  saturation: 0.8259515953250229
-  rhythmicContrast: 0.7647508170921355
-purpose: []
+typography_spectrum: 0.4426523
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.8847203741315752
+analytics:
+  twitter: null
+  google: null
+  facebook: null
