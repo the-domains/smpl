@@ -1,6 +1,6 @@
 name: SMPL
 favicon: null
-layout_spectrum: 0.8847203741315752
+layout_spectrum: 0.91817
 typography_spectrum: 0.5078160909470171
 title: SonicMuteProductionsLimited
 cta:
@@ -22,7 +22,7 @@ color:
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.10277049615979195
+  brandStrength: 0.125
   lightness: 0.04575641732662916
   saturation: 0.8259515953250229
   rhythmicContrast: 0.7647508170921355
